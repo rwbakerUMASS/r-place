@@ -16,6 +16,6 @@ for i in range(78):
         contrib[id]=contrib[id]+1
     file.close()
 
-contrib = dict(sorted(contrib.items(), key=lambda item: item[1]))
+contrib = dict(sorted(contrib.items(), key=lambda item: item[1],reverse=True))
 with open('top_contrib.json','w') as file:
     json.dump(contrib,file)

@@ -1,5 +1,6 @@
 {
     "python.analysis.extraPaths": [
-        "./Color Mix"
+        "./Color Mix",
+        "./Top Contrib"
     ]
 }

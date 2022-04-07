@@ -1,5 +1,5 @@
 # Visualizations of r/place data
-
+Dataset used in this project is found here: https://placedata.reddit.com/data/canvas-history/index.html
 |Heatmap|
 |:---:|
 |![alt text](https://github.com/rwbakerUMASS/r-place/blob/main/Heatmap/heatmap.png)|

@@ -3,7 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import hex2rgb as h2r
 
-startTime=None
 colors=[None]*2000
 final=np.zeros((2000,2000,3))
 for i in range(78):

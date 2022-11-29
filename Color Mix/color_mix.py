@@ -5,7 +5,7 @@ import hex2rgb as h2r
 
 colors=[None]*2000
 final=np.zeros((2000,2000,3))
-for i in range(78):
+for i in [68, 69, 70, 71, 71, 72, 74, 75, 76, 77]:
     filename = 'D:/r-place-data/2022_place_canvas_history-0000000000'+str(i).rjust(2,'0')+'.csv'
     print('Opening ',filename)
     file = open(filename)
